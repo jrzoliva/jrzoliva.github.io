@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quennie and Joey are getting Married!- You are Invited.</title>
+    <link rel="stylesheet" href="inv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet"> <!-- Waterfall Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+</head>
+<body>
+    <div class="cover">
+        <div class="transparent-film">
+            <div class="cover-content">
+                <img src="img/NAME.png" alt="Wedding Names" class="name-image">
+                <button id="viewInvitationBtn">View Invitation</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="invitationPage" class="invitation-page animate-on-scroll" style="display: none;">
+        <div class="header">
+            <div class="transparent-film-header">
+                <img src="img/NAME.png" alt="Wedding Names" class="name-image-header">
+                <img src="img\dvder.png" class="name-image-dvd">
+                <h1>November 16, 2024</h1>
+                <h2>2:00 PM</h2>
+                <div class="image-overlay"></div>
+                <img src="img\𝘳𝘦𝘪𝘢𝘯𝘯𝘦𝘹.jpg" class="image-header">
+            </div>
+        </div>
+        <audio id="bgMusic" loop>
+            <source src="https://d35agoybhxvn83.cloudfront.net/uploads/2024/01/PALAGI-TJ-Monterde-OFFICIAL-LYRIC-VIDEO.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section id="weddingCountdown"  class="wedding-countdown animate-on-scroll" style="display: none;"> <!-- Initially hidden -->
+        <div class="countdown-wrapper">
+            <div class="countdown-box">
+                <p id="days">00</p>
+                <span>Days</span>
+            </div>
+            <div class="countdown-box">
+                <p id="hours">00</p>
+                <span>Hours</span>
+            </div>
+            <div class="countdown-box">
+                <p id="minutes">00</p>
+                <span>Minutes</span>
+            </div>
+            <div class="countdown-box">
+                <p id="seconds">00</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="ourStorySection" class="our-story-section animate-on-scroll" style="display: none;"> <!-- Initially hidden -->
+        <div class="image-container">
+            <img src="img/7a8da0049bfb7219f52276bed7b82fd4.jpg" alt="Picture 1" class="story-image"  data-lightbox="our-story">
+            <div class="middle-container">
+                <img src="img/qte.png" alt="Quote" class="quote-image">
+                <img src="img/Beige and Brown Scrapbook Museum of History Infographic (1).png" alt="Picture 2" class="story-image middle-image"  data-lightbox="our-story">
+            </div>
+            <img src="img/8347dc56cbe98ed44c066b85a8c3cf59.jpg" alt="Picture 3" class="story-image"  data-lightbox="our-story">
+        </div>
+    
+    </section>
+
+    <hr class="section-divider "style="display: none;">
+
+    <section class="invitation-pictures-section animate-on-scroll" style="display: none;"> <!-- Initially hidden -->
+        <div class="invitation-image-container">
+            <img src="img/_Invitation.png" alt="Invitation Picture 1" class="invitation-image">
+            <img src="img/_Invitation (1).png" alt="Invitation Picture 2" class="invitation-image">
+        </div>
+    </section>
+    
+    <hr class="section-divider "style="display: none;">
+    
+
+    <section class="pre-nup-section animate-on-scroll" style="display: none;">
+        <h3>Pre-nup Photos</h3>
+        <div class="pre-nup-container">
+            <button class="prev-btn">&#10094;</button>
+            <div class="pre-nup-images-wrapper">
+                <div id="preNupImages" class="pre-nup-images">
+                    <!-- Manually added images -->
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 1" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 2" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 3" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 4" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 5" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 6" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 7" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 8" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 9" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 10" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 11" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 12" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 13" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 14" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 15" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 16" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 17" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 18" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 19" class="pre-nup-image">
+                    <img src="img/f68293153f6e1ea2a5da19769485c458.jpg" alt="Pre-Nup Image 20" class="pre-nup-image">
+                </div>
+            </div>
+            <button class="next-btn">&#10095;</button>
+        </div>
+    </section>
+
+
+    <section id="venueSection" class="venue-section animate-on-scroll" style="display: none;">
+        <h3>Venues</h3>
+        <div class="venue-container">
+            <div class="venue">
+                <img src="img/Guinobatan_Church_road_view_(National_Road,_Guinobatan,_Albay;_04-16-2023).jpg" alt="Church Photo">
+                <div class="venue-details">
+                    <h4>Our Lady of the Assumption Parish Church</h4>
+                    <p>Guinobatan, 4503 Albay</p>
+                    <button class="go-to-venue-btn" onclick="navigateToVenue('https://www.google.com/maps/place/Our%20Lady%20of%20the%20Assumption%20Church,%20Guinobatan,%204503%20Albay/@13.1911948,123.6009523,17z')">Go to Venue</button>
+                </div>
+            </div>
+            <div class="venue">
+                <img src="img/2021-01-05.jpg" alt="Reception Photo">
+                <div class="venue-details">
+                    <h4>Socorro's The Venue</h4>
+                    <p>Camalig, Albay, Philippines</p>
+                    <button class="go-to-venue-btn" onclick="navigateToVenue('https://maps.app.goo.gl/zXHtYGEDN5gbYb5d9')">Go to Venue</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="gift-requests-section animate-on-scroll" style="display: none;">
+        <h3>Gift Requests</h3>
+        <div class="gift-request-content">
+            <p>Please consider bringing gifts from our registered stores. Your presence is the greatest gift of all, but if you wish to bless us with a gift, we have registered our preferred items.</p>
+            <img src="img/wired-outline-412-gift.gif" alt="Gift Gif" class="gift-gif">
+        </div>
+    </section>
+
+    <section class="dress-code-section animate-on-scroll" style="display: none;">
+        <h3>Dress Code</h3>
+        <div class="dress-code-container">
+            <div class="dress-code-row">
+                <div class="dress-code-column">
+                    <p class="dress-description">Elegant attire for the principal sponsors.</p>
+                    <img src="img/2.png" alt="Principal Sponsors Dress" class="dress-image">
+                
+                    <img src="img/1.png" alt="Color Scheme for Principal Sponsors" class="color-scheme-image">
+                </div>
+                <div class="dress-code-column">
+                    <p class="dress-description">Formal attire with the color scheme for the guests.</p>
+                    <img src="img/3.png" alt="Guests Dress" class="dress-image">
+             
+                    <img src="img/4.png" alt="Color Scheme for Guests" class="color-scheme-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="snap-and-share-section animate-on-scroll" style="display: none;">
+        <h3>Snap and Share</h3>
+        <p>Help us capture the moments! Share your photos with our wedding hashtag</p>
+        <h5>#CENGgotHerFavoriteDRINk</h5>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+    </section>
+    
+    
+
+    
+    
+    <section id="audioControls" class="audio-controls fixed-widget" style="display: none;"> <!-- Initially hidden -->
+        <button id="toggleAudio">
+            <i id="playIcon" class="fas fa-play" style="display:none;"></i>
+            <i id="pauseIcon" class="fas fa-pause"></i>
+        </button>
+        
+    </section>
+
+
+    <section id="rsvpSection" class="rsvp-section animate-on-scroll" style="display: none;">
+        <!-- Content -->
+        <h3>RSVP</h3>
+        <p>Please RSVP by filling out the form below:</p>
+        <!-- Replace 'YOUR_GOOGLE_FORM_URL' with the actual URL of your Google Form -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2cKbYD7kWL9CioCxDBm_iKp8_kqc6_diNTfHqDnxuVZUo5Q/viewform?usp=sf_link" >Loading...</iframe>
+
+    </section>
+    
+    <div id="navbar" class="navbar hide-navbar" style="display: none;">
+        <a href="#invitationPage" title="Invitation"><i class="fas fa-envelope-open-text"></i></a>
+        <a href="#weddingCountdown" title="Countdown"><i class="fas fa-calendar-alt"></i></a>
+        <a href="#ourStorySection" title="Details"><i class="fas fa-heart"></i></a>
+        <a href="#venueSection" title="Venues"><i class="fas fa-map-marker-alt"></i></a>
+        <a href="#rsvpSection" title="RSVP"><i class="fas fa-address-book"></i></a>
+    </div>
+    
+    <!-- Modal for viewing images -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div class="modal-navigation">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+</div>
+
+    
+    <script>
+      document.getElementById('viewInvitationBtn').addEventListener('click', function() {
+    document.querySelector('.cover').style.display = 'none';
+    document.querySelector('.invitation-page').style.display = 'block'; // Display page 2
+    document.querySelector('.wedding-countdown').style.display = 'block'; // Display wedding countdown
+    document.querySelector('.our-story-section').style.display = 'block'; // Display our story section
+    document.querySelector('.section-divider').style.display = 'block'; // Display our story section
+    document.querySelector('.invitation-pictures-section').style.display = 'block'; // Display invitation pictures section
+    document.querySelector('.pre-nup-section').style.display = 'block'; // Display prenup pictures section
+    document.querySelector('.venue-section').style.display = 'block'; // Display venue section
+    document.querySelector('.gift-requests-section').style.display = 'block'; // Display gift-requests-section
+    document.querySelector('.dress-code-section').style.display = 'block'; // Display dress-code-section
+    document.querySelector('.snap-and-share-section').style.display = 'block'; // Display snap-and-share-section
+    document.querySelector('.rsvp-section').style.display = 'block'; // Display snap-and-share-section
+    document.querySelector('.audio-controls').style.display = 'block'; // Display audio controls
+    document.querySelector('.navbar').style.display = 'block'; // Display navbar
+    document.getElementById('bgMusic').play(); // Start playing the audio
+    startCountdown(); // Start the countdown
+});
+
+
+        // Add event listeners for play and pause buttons
+        document.getElementById('playBtn').addEventListener('click', function() {
+            document.getElementById('bgMusic').play();
+        });
+
+        document.getElementById('pauseBtn').addEventListener('click', function() {
+            document.getElementById('bgMusic').pause();
+        });
+
+        // Set the wedding date
+       
+    </script>
+
+<script>
+    // Set the wedding date
+    const weddingDate = new Date('2024-11-16T14:00:00');
+
+    // Function to update the countdown
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = weddingDate - now;
+
+        // Calculate days, hours, minutes, and seconds
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Update the countdown elements
+        document.getElementById('days').textContent = formatTime(days);
+        document.getElementById('hours').textContent = formatTime(hours);
+        document.getElementById('minutes').textContent = formatTime(minutes);
+        document.getElementById('seconds').textContent = formatTime(seconds);
+    }
+
+    // Function to format time to ensure two digits
+    function formatTime(time) {
+        return time < 10 ? `0${time}` : time;
+    }
+
+    // Add event listener to the "View Invitation" button
+    document.getElementById('viewInvitationBtn').addEventListener('click', function() {
+        // Show the countdown section
+        document.querySelector('.wedding-countdown').style.display = 'block';
+        
+        // Start updating the countdown
+        setInterval(updateCountdown, 1000);
+    });
+</script>
+    <script>
+        document.getElementById('toggleAudio').addEventListener('click', function() {
+    var audio = document.getElementById('bgMusic');
+    if (audio.paused) {
+        audio.play();
+        document.getElementById('playIcon').style.display = 'none';
+        document.getElementById('pauseIcon').style.display = 'inline-block';
+    } else {
+        audio.pause();
+        document.getElementById('playIcon').style.display = 'inline-block';
+        document.getElementById('pauseIcon').style.display = 'none';
+    }
+});
+
+    </script>
+   
+
+  
+ <script>
+    document.querySelector('.prev-btn').addEventListener('click', function() {
+        document.querySelector('.pre-nup-images-wrapper').scrollBy({
+            left: -220, // Adjust based on image width + margin
+            behavior: 'smooth'
+        });
+    });
+
+    document.querySelector('.next-btn').addEventListener('click', function() {
+        document.querySelector('.pre-nup-images-wrapper').scrollBy({
+            left: 220, // Adjust based on image width + margin
+            behavior: 'smooth'
+        });
+    });
+
+   
+</script>
+<script>
+    function navigateToVenue(url) {
+        window.open(url, '_blank');
+    }
+</script>
+<script>// Function to check if an element is in viewport
+    // JavaScript
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all sections with the 'animate-on-scroll' class
+    const sections = document.querySelectorAll('.animate-on-scroll');
+
+    // Function to check if an element is in the viewport
+    function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    // Function to add animation class when section comes into view
+    function animateOnScroll() {
+        sections.forEach(section => {
+            if (isInViewport(section)) {
+                section.classList.add('animate-fade-in'); // Add your desired animation class here
+            }
+        });
+    }
+
+    // Event listener for scrolling
+    window.addEventListener('scroll', animateOnScroll);
+
+    // Trigger animation on page load
+    animateOnScroll();
+});
+
+    </script>
+ <script>
+   
+    document.addEventListener("DOMContentLoaded", function() {
+        const navbarLinks = document.querySelectorAll('.navbar a');
+
+        navbarLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetSectionId = link.getAttribute('href');
+                const targetSection = document.querySelector(targetSectionId);
+                const sectionTop = targetSection.offsetTop;
+                window.scrollTo({
+                    top: sectionTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+
+    // Other scripts for countdown, audio control, etc.
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImage");
+    var closeModal = document.getElementsByClassName("close")[0];
+    var prevBtn = document.getElementsByClassName("prev")[0];
+    var nextBtn = document.getElementsByClassName("next")[0];
+    const navbar = document.getElementById('navbar');
+    const audioControls = document.getElementById('audioControls');
+
+    var images = document.querySelectorAll('.story-image, .pre-nup-image, .invitation-image');
+    var currentIndex;
+
+    images.forEach((img, index) => {
+        img.addEventListener('click', function() {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            currentIndex = index;
+            navbar.style.display = "none"; // Hide navbar
+            audioControls.style.display = "none"; // Hide audio controls
+        });
+    });
+
+    closeModal.onclick = function() {
+        modal.style.display = "none";
+        navbar.style.display = "block"; // Show navbar
+        audioControls.style.display = "block"; // Show audio controls
+    }
+
+    prevBtn.onclick = function() {
+        currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+        modalImg.src = images[currentIndex].src;
+    }
+
+    nextBtn.onclick = function() {
+        currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+        modalImg.src = images[currentIndex].src;
+    }
+
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+            navbar.style.display = "none"; // Hide navbar
+            audioControls.style.display = "none"; // Hide audio controls
+        }
+    }
+});
+
+</script>
+
+
+</body>
+</html>
